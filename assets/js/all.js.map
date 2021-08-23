@@ -1,1 +1,1 @@
-{"version":3,"sources":["all.js"],"names":[],"mappings":"AAAA","file":"all.js","sourcesContent":[""]}
+{"version":3,"sources":["all.js"],"names":["swiper","Swiper","pagination","el","dynamicBullets"],"mappings":";;AAAA,IAAIA,MAAM,GAAG,IAAIC,MAAJ,CAAW,WAAX,EAAwB;AACjCC,EAAAA,UAAU,EAAE;AACRC,IAAAA,EAAE,EAAE,oBADI;AAERC,IAAAA,cAAc,EAAE;AAFR;AADqB,CAAxB,CAAb","file":"all.js","sourcesContent":["var swiper = new Swiper(\".mySwiper\", {\r\n    pagination: {\r\n        el: \".swiper-pagination\",\r\n        dynamicBullets: true,\r\n    },\r\n});\r\n"]}

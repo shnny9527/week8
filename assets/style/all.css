@@ -26,7 +26,7 @@
   --bs-danger: #dc3545;
   --bs-light: #707070;
   --bs-dark: #212529;
-  --bs-font-sans-serif: system-ui, -apple-system, "source-han-sans-traditional", "source-han-sans-traditional", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: system-ui, -apple-system, "Noto Sans TC", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
@@ -13060,6 +13060,51 @@ a {
   text-decoration: none;
 }
 
+.yoga-img-item {
+  width: 350px;
+  height: 420px;
+}
+
+.benefit-img {
+  width: 350px;
+  height: 444px;
+}
+
+.benefit-small-img {
+  width: 160px;
+  height: 207px;
+}
+
+.img-150 {
+  width: 150px;
+  height: 150px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 243px;
+}
+
+.img-445 {
+  width: 445px;
+  height: 445px;
+}
+
+@media (max-width: 767.98px) {
+  .yoga-img-item-md {
+    width: 210px;
+    height: 252px;
+  }
+  .benefit-img-md {
+    width: 210px;
+    height: 266px;
+  }
+  .benefit-small-img-md {
+    width: 90px;
+    height: 117px;
+  }
+}
+
 .banner {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg?raw=true);
   background-position: bottom;
@@ -13078,6 +13123,24 @@ a {
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-logo {
@@ -13103,12 +13166,15 @@ a {
 }
 
 .border-radius-1 {
-  padding: 8px 16px;
   border-radius: 16px;
 }
 
 .border-radius-2 {
   border-radius: 30px;
+}
+
+.w345 {
+  width: 345px;
 }
 
 .input-p-1 {
@@ -13128,6 +13194,11 @@ a {
   margin-bottom: 64px;
 }
 
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .py-45 {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -13138,12 +13209,22 @@ a {
   padding-bottom: 64px;
 }
 
-.pb-64 {
-  margin-bottom: 64px;
+.pt-40 {
+  padding-top: 40px;
 }
 
-.top-80 {
+.pb-64 {
+  padding-bottom: 64px;
+}
+
+.top-60 {
   top: 60%;
+}
+
+@media (max-width: 767.98px) {
+  .top-md-50 {
+    top: 50%;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
