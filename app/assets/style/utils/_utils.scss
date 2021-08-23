@@ -1,11 +1,14 @@
 //border-radius
 .border-radius-1{
-    padding: 8px 16px;
     border-radius: 16px;
 }
 .border-radius-2{
   border-radius: 30px;
 }
+.w345{
+  width: 345px;
+}
+
 //input
 .input-p-1{
   padding: 8px 0px 8px 16px;
@@ -23,6 +26,10 @@
 }
 
 //padding
+.py-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .py-45{
   padding-top: 45px;
   padding-bottom: 45px;
@@ -31,10 +38,22 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.pb-64{
-  margin-bottom: 64px;
+.pt-40{
+  padding-top: 40px;
 }
+.pb-64{
+  padding-bottom: 64px;
+}
+
 //position
-.top-80{
-top: 60%;
+.top-60{
+  top: 60%;
+}
+
+@include media-breakpoint-down(md) {
+
+  .top-md-50{
+    top: 50%;
+  }
+
 }
