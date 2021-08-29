@@ -3,3 +3,28 @@
     transition: all 0.3s ease-out;
 }
 
+.course-card{
+width: 100%;
+height: 196px;
+border-radius: 16px;
+object-fit: fill;
+}
+
+.teacher-card-wrap{
+  height: 418px;  
+}
+.classroom-card{
+  height: 350px;
+  object-fit: fill;
+}
+
+@include media-breakpoint-down(lg){
+  .classroom-md-card{
+    height: 210px;
+  }
+}
+@include media-breakpoint-down(sm){
+  .classroom-sm-card{
+    height: 350px;
+  }
+}

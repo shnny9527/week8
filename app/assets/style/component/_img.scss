@@ -14,15 +14,30 @@
     width: 150px;
     height: 150px;
 }
-
-.card-img-top{
-    width: 100%;
-    height: 243px;
+.img-196{
+    height: 196px;
+}
+.img-418{
+    width: 418px;
+    height: 418px;
 }
 .img-445{
     width: 445px;
     height: 445px;
 }
+
+.teacher-img{
+    width: 85px;
+    height: 85px;
+}
+.card-img-top{
+    width: 100%;
+    height: 243px;
+}
+.w-210{
+    width: 210px;
+}
+
 @include media-breakpoint-down(md) { 
     .yoga-img-item-md{
         width: 210px;

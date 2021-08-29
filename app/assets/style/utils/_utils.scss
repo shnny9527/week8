@@ -5,10 +5,49 @@
 .border-radius-2{
   border-radius: 30px;
 }
+//width
+.w-30{
+  width: 30%;
+}
+.w-40{
+  width: 40%;
+}
+.w-80{
+  width: 80%;
+}
+
+.w-196{
+  width: 196px;
+  height: 196px;
+}
+.w418{
+  width: 418px;
+  height: 418px;
+}
 .w345{
   width: 345px;
 }
 
+
+//height
+.h-76{
+  height: 76px;
+}
+
+.h196{
+  height: 196px;
+}
+.h-215{
+  height:215px ;
+}
+.h-341{
+  height: 341px;
+}
+//font-size
+.fs-sm{
+  font-size: 14px;
+ 
+}
 //input
 .input-p-1{
   padding: 8px 0px 8px 16px;
@@ -20,12 +59,19 @@
 .mt-40{
   margin-top: 40px;
 }
+.mt-64{
+  margin-top: 64px;
+}
 .my-64{
   margin-top: 64px;
   margin-bottom: 64px;
 }
 
 //padding
+.py-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .py-40{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -44,16 +90,88 @@
 .pb-64{
   padding-bottom: 64px;
 }
+.pb-80{
+  padding-bottom: 80px;
+}
 
+//button
+.btn-xxl{
+  padding: 12px 48px;
+}
 //position
+.start-5{
+  left: 5%;
+}
+.start-10{
+  left:10%;
+}
+.start-13{
+left: 13%;
+}
+.start-23{
+  left: 23%;
+}
+.start-25{
+left: 25%;
+}
 .top-60{
   top: 60%;
 }
+.top-70{
+  top: 70%;
+}
+.top-90{
+  top: 70%;
+}
+
+
+//list-type
+.disc{
+  list-style-type: disc;
+}
+.decimal{
+  list-style: decimal;
+}
+//
+.z-index-0{
+  z-index: 0;
+}
+.z-index-1{
+  z-index: 10;
+}
+//img
+.object-cover{
+  object-fit: cover;
+}
+
+//overflow
+.overflow-hidden{
+  overflow: hidden;
+}
+.overflow-hidden-y{
+  overflow-y: hidden;
+}
+.overflow-scroll{
+overflow:scroll
+}
+.overflow-x{
+overflow-x:auto
+}
+
 
 @include media-breakpoint-down(md) {
 
   .top-md-50{
     top: 50%;
   }
+  .w-md-30{
+    width: 30%;
+  }
 
+}
+
+@include media-breakpoint-down(sm) {
+  .w-sm-100{
+    width: 100%;
+  }
 }
