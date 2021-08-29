@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>瑜珈空間</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+  <ul class="flex flex-column position-fixed top-50 end-0 fs-1 d-none d-md-block ">
+    <li><a href="#" class="link-secondary"><i class="fab fa-facebook"></i></a></li>
+    <li class="my-2"><a href="#" class="link-secondary"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#" class="link-secondary"><i class="fab fa-line"></i></a></li>
+  </ul>
+  <!--垃圾code，助教救我　不知道這個Navbar怎麼寫比較好O_Q-->
+  <nav class="bg-primary d-none d-lg-block">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1><a href="./index.html" class="header-logo"></a></h1>
+        <ul class="d-flex text-light py-4">
+          <li><a href="./Course.html" class=" link-light">課程介紹</a></li>
+          <li class="mx-5"><a href="./space.html" class=" link-light">瑜珈空間</a></li>
+          <li><a href="./monthCurriculum.html" class="link-light">當月課表</a></li>
+        </ul>
+        <div class="d-flex">
+          <a href="./Reserve.html" class="btn px-4 py-2 a btn-outline-secondary  border-radius-1">立即預約</a>
+          <a href="./contact.html" class="btn  px-4 py-2  btn-outline-secondary border-radius-1 ms-3">聯絡我們</a>
+        </div>
+      </div>
+  </nav>
+  <!--漢堡選單 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary d-block d-lg-none">
+    <div class="container">
+      <h1><a href="./index.html" class="header-logo"></a></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./Course.html">課程介紹</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">瑜珈空間</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">當月課表</a>
+          </li>
+          <li class="nav-item">
+            <a href="./Reserve.html" class="btn px-4 py-2  btn-outline-secondary  border-radius-1">立即預約</a>
+            <a href="./contact.html" class="btn px-4 py-2  btn-outline-secondary border-radius-1 ms-3">聯絡我們</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="container py-64">
+        <h3 class="fs-3 text-success text-center">瑜珈空間</h3>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <div class="col-12 position-relative">
+                        <img src="https://images.unsplash.com/photo-1616940779493-6958fbd615fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                            alt="" class="w-100 border-radius-1 classroom-card classroom-md-card classroom-sm-card ">
+                        <div class=" position-absolute bottom-0 start-0 p-5 text-white">
+                            <p class="fs-3">A、B 團體課教室</p>
+                            <p>教授課程：A-基礎、艾揚格、哈達、寰宇；B-雙人飛行、阿斯坦加、陰陽、香氛</p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-sm-6  mt-3 mt-sm-4  position-relative">
+                        <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                            alt="" class="w-100 border-radius-1 classroom-card classroom-md-card classroom-sm-card">
+                        <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                            <p class="fs-3 ">C、D 個人訓練室</p>
+                            <p>開放時間：每週一至週五 09:00~17:00</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6  mt-3 mt-sm-4  position-relative">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                            alt="" class="w-100 border-radius-1 classroom-card classroom-md-card classroom-sm-card">
+                        <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                            <p class="fs-3 ">淋浴間</p>
+                            <p>開放時間：每週一至週日 09:00~21:30</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6  mt-3 mt-sm-4  position-relative">
+                        <img src="https://images.unsplash.com/photo-1600881333168-2ef49b341f30?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+                            alt="" class="w-100 border-radius-1 classroom-card classroom-md-card classroom-sm-card">
+                        <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                            <p class="fs-3 ">器材出租</p>
+                            <p>有租借需求請至櫃檯登記</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6  mt-3 mt-sm-4  position-relative">
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=763&q=80"
+                            alt="" class="w-100 border-radius-1 classroom-card classroom-md-card classroom-sm-card">
+                        <div class="position-absolute bottom-0 start-0 p-5 text-white">
+                            <p class="fs-3 ">交誼廳</p>
+                            <p>開放時間：每週一至週五 09:00~21:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 mt-5 mt-sm-0">
+                <div class="border-radius-1 bg-primary p-5 text-success">
+                    <p>DOYOGA 提供：</p>
+                    <p class="mt-4">四間教室：A、B 團體課教室、C、D 個人訓練室。</p>
+                    <p class="mt-2">瑜珈墊、輔具：每次課後會進行殺菌清潔，乾淨免擔心。</p>
+                    <p class="mt-2">男女置物櫃、淋浴間：分別設置在館內 A、B 區。</p>
+                    <p class="mt-2">舒適交誼廳，咖啡茶水無限供應，假日提供午間蔬食餐點。</p>
+                    <a class="d-block mt-3 text-success " href="./Reserve.html">立即預約 <i
+                            class="ms-2 fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary py-40">
+        <div class="container">
+            <h3 class="fs-3 text-success text-center">課程推薦</h3>
+
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="swiper img-card">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/flagged/photo-1573556291531-a5d957d7e4e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1599447332412-6bc6830c815a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=682&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1612157777902-5382bc6e864b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1612157777902-5382bc6e864b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1611094607507-8c8173e5cf33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1611077094726-11cf1f992009?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1574454941059-9408c4d3f268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide w-40 flex-column align-items-start">
+                                <img src="https://images.unsplash.com/photo-1599447292325-2cffaa79bcbb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=695&q=80"
+                                    alt="" class="w-100 border-radius-1 img-196">
+                                <div class="mt-1  text-success">
+                                    <p class="fs-5">基礎 Basic</p>
+                                    <p>授課老師：Carol Tang</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+  <footer class="footer bg-success py-5">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-sm-12 col-md-7 col-lg-4  ">
+          <h3 class="text-white fs-3 text-nowrap ">現在訂閱，獲得課程優惠碼！</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4  d-flex position-relative mt-2 mt-sm-0 ">
+          <input class="input-p-1 rounded border border-white w-100" type="text" placeholder="輸入您的電子信箱">
+          <div class="btn btn-secondary position-absolute top-50 end-0 translate-middle-y text-white fs-5">訂閱</div>
+        </div>
+
+      </div>
+    </div>
+    <hr class=" hr-2 text-white">
+    <div class="container mt-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2><a href="./index.html" class="footer-logo">DOYOGA</a> </h2>
+        <ul class="d-flex fs-3">
+          <li class="ms-2"><a href="./Course.html" class="text-white"><i class="fab fa-facebook"></i></a></li>
+          <li class="ms-2"><a href="#" class="text-white"><i class="fab fa-instagram"></i></a></li>
+          <li class="ms-2"><a href="#" class="text-white"><i class="fab fa-line"></i></a></li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between ">
+        <ul class="d-flex flex-column ">
+          <li class="mt-2"><a class="text-white" href="./Course.html">課程介紹</a></li>
+          <li class="mt-2"><a class="text-white" href="./space.html">瑜珈空間</a></li>
+          <li class="mt-2"><a class="text-white" href="./monthCurriculum.html">當月課表</a></li>
+        </ul>
+        <p class="text-white d-flex mt-2 mt-sm-0 align-items-end">
+          © 2021. All Rights Reserved.
+        </p>
+        <div></div>
+      </div>
+
+
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+
+</body>
+
+</html>
