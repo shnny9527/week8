@@ -1,10 +1,8 @@
 "use strict";
 
 var swiper = new Swiper(".mySwiper", {
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true
-  }
+  slidesPerView: 1.2,
+  spaceBetween: 30
 });
 var swiper = new Swiper(".mySwiper1", {
   slidesPerView: 2,
@@ -14,6 +12,10 @@ var swiper = new Swiper(".mySwiper1", {
     el: ".swiper-pagination",
     clickable: true
   }
+});
+var swiper = new Swiper(".mySwiper2", {
+  slidesPerView: 1,
+  spaceBetween: 30
 });
 var swiper = new Swiper(".teacher-card", {
   slidesPerView: 3,
